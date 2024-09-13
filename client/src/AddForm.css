@@ -1,0 +1,70 @@
+/* src/AddForm.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+  }
+  
+  button[type="button"] {
+    width: auto;
+    /* margin-bottom: 10px; */
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.answer-container {
+  margin-bottom: 10px;
+}
+
+.answer-input {
+  display: flex;
+  align-items: center;
+}
+
+.answer-input input {
+  flex-grow: 1;
+  margin-right: 0;
+}
+
+.answer-input input:not(:last-child) {
+  margin-right: 10px;
+}
+
+.remove-answer {
+  background-color: #f39797;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.remove-answer:hover {
+  background-color: #f39797;
+}
